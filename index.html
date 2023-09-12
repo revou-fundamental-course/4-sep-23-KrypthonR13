@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project SEFC | ROKI HENDRAWAN</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="container">
+        <div class="header">
+            <h1>Kakulator Bangun Datar</h1>
+        </div>
+        <div class="main">
+            <div class="about">
+                <h2>Welcome to Kakulator Bangun Datar</h2>
+                <p>Ini merupakan mini project RevoU untuk menghitung luas dan keliling persegi dari program Software
+                    Engineering Fundamental Course {SEFC}.</p>
+            </div>
+            <div class="card">
+                <div class="card_title">
+                    <h4>Luas Persegi</h4>
+                </div>
+                <div class="card_content">
+                    <img src="img/persegi.webp" alt="" width="200" height="200">
+                    <h5>Rumus Luas Persegi yaitu:</h5>
+                    <p>L = s x s</p>
+                    <hr>
+                    <div class="containerForm">
+                        <form>
+                            <div class="form-group">
+                                <label for="luasSisi">Masukkan Sisi:</label>
+                                <input type="number" id="luasSisi" name="luasSisi" placeholder="Masukkan sisi Persegi">
+                            </div>
+                            <div id="hasilLuas" class="hasil"></div>
+                            <div class="btn-container">
+                                <button type="button" id="hitungLuas" class="hitung">Hitung</button>
+                                <button type="reset" id="reset">Reset</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card_title">
+                    <h4>Keliling Persegi</h4>
+                </div>
+                <div class="card_content">
+                    <img src="img/persegi.webp" alt="" width="200" height="200">
+                    <h5>Rumus Keliling Persegi yaitu:</h5>
+                    <p>L = 4 x s</p>
+                    <hr>
+                    <div class="containerForm">
+                        <form>
+                            <div class="form-group">
+                                <label for="kelilingSisi">Masukkan Sisi:</label>
+                                <input type="number" id="kelilingSisi" name="kelilingSisi"
+                                    placeholder="Masukkan sisi Persegi">
+                            </div>
+                            <div id="hasilKeliling" class="hasil"></div>
+                            <div class="btn-container">
+                                <button type="button" id="hitungKeliling" class="hitung">Hitung</button>
+                                <button type="reset" id="reset">Reset</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer">
+            <p>&copy;2023 ROKI HENDRAWAN. Participant RevoU SEFC</p>
+        </div>
+    </section>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
